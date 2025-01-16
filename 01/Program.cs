@@ -183,7 +183,6 @@ void Fatorial()
     Continuar();
 }
 
-
 void Inicio()
 {
     Console.Clear();
