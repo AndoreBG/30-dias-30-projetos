@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Estudos\\projetos\\30-dias-30-projetos\\03\\03.csproj": {}
+    "D:\\Estudos\\projetos\\projetos-csharp-dotnet\\03\\03.csproj": {}
   },
   "projects": {
-    "D:\\Estudos\\projetos\\30-dias-30-projetos\\03\\03.csproj": {
+    "D:\\Estudos\\projetos\\projetos-csharp-dotnet\\03\\03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Estudos\\projetos\\30-dias-30-projetos\\03\\03.csproj",
+        "projectUniqueName": "D:\\Estudos\\projetos\\projetos-csharp-dotnet\\03\\03.csproj",
         "projectName": "03",
-        "projectPath": "D:\\Estudos\\projetos\\30-dias-30-projetos\\03\\03.csproj",
+        "projectPath": "D:\\Estudos\\projetos\\projetos-csharp-dotnet\\03\\03.csproj",
         "packagesPath": "C:\\Users\\darkg\\.nuget\\packages\\",
-        "outputPath": "D:\\Estudos\\projetos\\30-dias-30-projetos\\03\\obj\\",
+        "outputPath": "D:\\Estudos\\projetos\\projetos-csharp-dotnet\\03\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

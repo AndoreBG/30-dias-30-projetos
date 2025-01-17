@@ -1,0 +1,15 @@
+D:\Estudos\projetos\projetos-csharp-dotnet\03\bin\Debug\net8.0\03.exe
+D:\Estudos\projetos\projetos-csharp-dotnet\03\bin\Debug\net8.0\03.deps.json
+D:\Estudos\projetos\projetos-csharp-dotnet\03\bin\Debug\net8.0\03.runtimeconfig.json
+D:\Estudos\projetos\projetos-csharp-dotnet\03\bin\Debug\net8.0\03.dll
+D:\Estudos\projetos\projetos-csharp-dotnet\03\bin\Debug\net8.0\03.pdb
+D:\Estudos\projetos\projetos-csharp-dotnet\03\obj\Debug\net8.0\03.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudos\projetos\projetos-csharp-dotnet\03\obj\Debug\net8.0\03.AssemblyInfoInputs.cache
+D:\Estudos\projetos\projetos-csharp-dotnet\03\obj\Debug\net8.0\03.AssemblyInfo.cs
+D:\Estudos\projetos\projetos-csharp-dotnet\03\obj\Debug\net8.0\03.csproj.CoreCompileInputs.cache
+D:\Estudos\projetos\projetos-csharp-dotnet\03\obj\Debug\net8.0\03.sourcelink.json
+D:\Estudos\projetos\projetos-csharp-dotnet\03\obj\Debug\net8.0\03.dll
+D:\Estudos\projetos\projetos-csharp-dotnet\03\obj\Debug\net8.0\refint\03.dll
+D:\Estudos\projetos\projetos-csharp-dotnet\03\obj\Debug\net8.0\03.pdb
+D:\Estudos\projetos\projetos-csharp-dotnet\03\obj\Debug\net8.0\03.genruntimeconfig.cache
+D:\Estudos\projetos\projetos-csharp-dotnet\03\obj\Debug\net8.0\ref\03.dll
