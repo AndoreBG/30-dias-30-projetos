@@ -1,9 +1,6 @@
-# Projetos em C# e .NET
+# Projetos em C# e .NET ![Status](https://img.shields.io/badge/status-em%20progresso-orange)
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
-![C#](https://img.shields.io/badge/language-C%23-brightgreen)  
-![.NET](https://img.shields.io/badge/platform-.NET-purple)  
-![Status](https://img.shields.io/badge/status-em%20progresso-orange)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
 Este repositório contém uma série de projetos desenvolvidos em C# e .NET, organizados por nível de dificuldade. Cada projeto foi criado com o objetivo de aprender, aplicar e aprimorar habilidades em desenvolvimento de software.
 
