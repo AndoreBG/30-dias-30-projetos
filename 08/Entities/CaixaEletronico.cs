@@ -15,14 +15,14 @@ namespace CaixaEletronicoComLogin
         {
             usuarios = new List<Usuario>
             {
-                new Usuario("João", "joao123", "senha123", 1000.00m),
-                new Usuario("Maria", "maria456", "senha456", 2000.00m)
+                new Usuario("André", "andre76", "senha123", 1000.00m),
+                new Usuario("Samuel", "samuander", "senha456", 2000.00m)
             };
         }
 
         public void Iniciar()
         {
-            Console.WriteLine("=== Bem-vindo ao Caixa Eletrônico ===");
+            Console.Clear();
 
             while (true) // Permite múltiplos logins
             {
@@ -34,10 +34,11 @@ namespace CaixaEletronicoComLogin
         }
 
         private bool Login()
-        {
+        {            
+            Console.WriteLine("Bem-vindo ao Caixa Eletrônico");
             Console.Write("\nDigite seu login: ");
             string login = Console.ReadLine();
-            Console.Write("Digite sua senha: ");
+            Console.Write("\nDigite sua senha: ");
             string senha = Console.ReadLine();
 
             foreach (var usuario in usuarios)
@@ -57,7 +58,11 @@ namespace CaixaEletronicoComLogin
         private void Logout()
         {
             Console.WriteLine($"\nAté logo, {usuarioLogado.Nome}! Você foi desconectado.");
+            Console.WriteLine("Pressione qualquer tecla para voltar ao Menu Inicial...");
+            Console.ReadKey();
+            
             usuarioLogado = null; // Redefine o usuário logado
+            Console.Clear();
         }
 
         private void Menu()
@@ -67,13 +72,13 @@ namespace CaixaEletronicoComLogin
             while (!sair)
             {
                 Console.Clear();
-                Console.WriteLine("=== Menu Principal ===");
-                Console.WriteLine("1 - Consultar Saldo");
-                Console.WriteLine("2 - Sacar Dinheiro");
-                Console.WriteLine("3 - Depositar Dinheiro");
-                Console.WriteLine("4 - Logout");
-                Console.WriteLine("5 - Sair");
-                Console.Write("Escolha uma opção: ");
+                Console.WriteLine("Menu Principal");
+                Console.WriteLine("\n1- Consultar Saldo");
+                Console.WriteLine("2- Sacar Dinheiro");
+                Console.WriteLine("3- Depositar Dinheiro");
+                Console.WriteLine("4- Logout");
+                Console.WriteLine("0- Sair");
+                Console.Write("\nEscolha uma opção: ");
 
                 string opcao = Console.ReadLine();
 
@@ -91,7 +96,7 @@ namespace CaixaEletronicoComLogin
                     case "4":
                         Logout();   // Chama o método de logout
                         return;     // Sai do menu e volta para a tela de login
-                    case "5":
+                    case "0":
                         sair = true;
                         Console.WriteLine("\nObrigado por usar o caixa eletrônico!");
                         break;
@@ -115,6 +120,9 @@ namespace CaixaEletronicoComLogin
 
         private void SacarDinheiro()
         {
+            Console.Clear();
+
+            Console.WriteLine($"\nSeu saldo atual é: R$ {usuarioLogado.Saldo:F2}");
             Console.Write("\nDigite o valor para saque: R$ ");
             if (decimal.TryParse(Console.ReadLine(), out decimal valorSaque))
             {
@@ -140,6 +148,8 @@ namespace CaixaEletronicoComLogin
 
         private void DepositarDinheiro()
         {
+            Console.Clear();
+
             Console.Write("\nDigite o valor para depósito: R$ ");
             if (decimal.TryParse(Console.ReadLine(), out decimal valorDeposito))
             {
